@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { ArrowUp, Facebook, Twitter, Instagram, LinkedIn, Mail, Heart } from 'lucide-react';
+import { ArrowUp, Facebook, Twitter, Instagram, Linkedin, Mail, Heart } from 'lucide-react';
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -11,7 +10,7 @@ const Footer = () => {
     { icon: Facebook, href: '#', label: 'Facebook' },
     { icon: Twitter, href: '#', label: 'Twitter' },
     { icon: Instagram, href: '#', label: 'Instagram' },
-    { icon: LinkedIn, href: '#', label: 'LinkedIn' }
+    { icon: Linkedin, href: '#', label: 'LinkedIn' }
   ];
 
   return (
